@@ -101,6 +101,7 @@ app.get('/api/animals/:id', (req, res) => {
     }
 });
 
+// added POST   
 app.post('/api/animals', (req, res) => {
     // req.body is where our incoming content will be
     console.log(req.body);
